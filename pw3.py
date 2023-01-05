@@ -39,4 +39,4 @@ password = input("Enter secure password: ")
 print("In the password there are:")
 attempts, probability = analyse_input(password)
 print(f"Number of attempts: {attempts}")
-print(f"Probability of guessing on the first attempt: {probability}") # Shows the result with 20 digits after comma
+print(f"Probability of guessing on the first attempt: {probability}")
